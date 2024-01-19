@@ -61,8 +61,8 @@ function Detailedproject(props)
 
         </div>
         <div className="buttons">
-          <button className="action-button" ><a href={github}>View Github Code</a></button>
-          <button className="action-button"><a href={live}>View Live Code</a></button>
+          <button className="action-button" ><a href={github} target="_blank">View Github Code</a></button>
+          <button className="action-button"><a href={live} target="_blank">View Live Code</a></button>
         </div>
       </div>
     </div>

@@ -17,10 +17,10 @@ function About() {
           With expertise in React, HTML5, CSS3, and JavaScript, I've successfully translated design 
           concepts into visually appealing and interactive websites. 
           </p>
-          <a href="/path/to/your/resume.pdf" target="_blank" className="resume-btn">
+            <a href="https://drive.google.com/drive/u/1/folders/1Wwl97cl3IL_geIdfWW-zzgmzbH2Q11Ah?q=sharedwith:public%20parent:1Wwl97cl3IL_geIdfWW-zzgmzbH2Q11Ah" target="_blank" className="resume-btn">
             Check Resume
           </a>
-        </div>
+          </div>
           <div className="photo">
           <img 
           src="f2.jpeg" 

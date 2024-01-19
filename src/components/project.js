@@ -13,10 +13,10 @@ function Project()
       image: 'foodie.png',
       date:'Nov 2023-Dec 2023',
       technologies: ['React','Redux','Tailwind CSS','MongoDb','Express','Node JS'],
-      description: 'Developed Foodie Express, a food ordering website utilizing the Swiggy API...',
+        description: 'Developed Foodie Express (group project), a food ordering website click ....',
       fulldescription:
       [
-        `• Developed Foodie Express, a food ordering website utilizing the Swiggy API to integrate real-time restaurant data
+        `• Developed a  Foodie Express (group project), a food ordering website utilizing the Swiggy API to integrate real-time restaurant data
           ensuring an up-to-date and dynamic user experience`,
         `• Implemented secure authentication using JSON Web Tokens (JWT) to manage user login sessions effectively`,
          `• Integrated Redux Toolkit to manage and maintain the state of the shopping cart within the application.`,
@@ -29,34 +29,15 @@ function Project()
         live:'https://foodie-express-puce.vercel.app/login'
       
     },
+    
     {
-      id: 2,
-      title: 'My Thoughts',
-      image: 'quotes.png',
-      date: 'Jan 2024-current',
-      technologies: ['React Js','Redux','HTML', 'CSS'],
-      description:'Developed a dynamic web application using React, HTML, and CSS with a focus on user...',
-      fulldescription: 
-      [
-        `•Developed a dynamic web application using React, HTML, and CSS with a focus on user authentication and quote management.`,
-        `•Enabled users to create, store, and view their quotes on the platform, enhancing personalization and user engagement.`,
-        `•Utilized Redux Toolkit for state management, enabling efficient handling of application-wide states and actions like allowing users 
-          to add quotes to their favorite list and remove them, enhancing user customization and interaction`,
-        `• Employed the useContext hook to efficiently manage and persist the login state of the user throughout the app.`,
-        `•Implemention of a secure user authentication system on the login page, ensuring a seamless and protected user experience to be done.`
-
-      ],
-     
-        github: 'https://github.com/Samridhii1212/my-thoughts'
-    },
-    {
-      id: 3,
+      id:2,
       title: 'Tenzies Game',
       image: 'tenzies2.png',
      
       date: 'May 2023-May 2023',
       technologies: ['React', 'Redux', 'HTML', 'CSS'],
-      description: 'Led the design and development of an engaging web-based game using a tech ...',
+      description: 'Led the design and development of an engaging web-based game using a tech click...',
       fulldescription:
         [
           `•Led the design and development of an engaging web-based game using a tech stack comprised of HTML, CSS, and JavaScript, with a primary focus on the React JS library.`,
@@ -73,12 +54,12 @@ function Project()
     },
 
       {
-        id: 4,
+        id: 3,
         title: 'Meme Creator',
         image: 'meme.png',
         date: 'May 2023-May 2023',
         technologies: ['React','Redux','HTML', 'CSS'],
-        description: 'Developed a web-based InstantMeme Creator application that allows users to create ...',
+        description: 'Developed a web-based InstantMeme Creator application that allows users to create click...',
         fulldescription:
           [
             `•Developed a web-based InstantMeme Creator application that allows users to create customized memes.`,
@@ -88,6 +69,26 @@ function Project()
           ],
         github:'https://github.com/Samridhii1212/Instant-MemeCreator',
         live:'https://instant-meme-creator-1ir1.vercel.app/'
+      },
+      {
+        id: 4,
+        title: 'My thoughts',
+        image: 'quotes.png',
+        date: 'Jan 2024-current',
+        technologies: ['React Js', 'Redux', 'HTML', 'CSS'],
+        description: 'Developed a dynamic web application using React, HTML, and CSS with a focus on user click...',
+        fulldescription:
+          [
+            `•Developed a dynamic web application using React, HTML, and CSS with a focus on user authentication and quote management.`,
+            `•Enabled users to create, store, and view their quotes on the platform, enhancing personalization and user engagement.`,
+            `•Utilized Redux Toolkit for state management, enabling efficient handling of application-wide states and actions like allowing users 
+          to add quotes to their favorite list and remove them, enhancing user customization and interaction`,
+            `• Employed the useContext hook to efficiently manage and persist the login state of the user throughout the app.`,
+            `•Implemention of a secure user authentication system on the login page, ensuring a seamless and protected user experience to be done.`
+
+          ],
+
+        github: 'https://github.com/Samridhii1212/my-thoughts'
       },
      
   ]

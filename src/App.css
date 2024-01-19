@@ -135,41 +135,11 @@ body
 }
 
 @media screen and (max-width:1000px) {
-
+.photo img{
+  width:900px;
+  height:200px;
+}
   
-  .about-section {
-    padding: 20px;
-  }
-
-  .about-section h2 {
-    font-size: 30px;
-  }
-
-  .about-section h3 {
-    font-size: 20px;
-  }
-
-  .about-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .intro-text {
-    max-width: 100%;
-    margin-top: 10px;
-  }
-
-  .resume-btn {
-    margin-top: 20px;
-  }
-
-  .photo {
-    margin-left: 0;
-  }
-
-  .photo img {
-  margin-top: 50px;
-  }
 }
 
 /* **********************************skill************************* */

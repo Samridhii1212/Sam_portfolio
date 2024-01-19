@@ -20,7 +20,7 @@ function Header() {
               </ul>
           </nav>
           <div className="github-btn">
-           <a href="https://github.com/Samridhii1212?tab=repositories" >
+        <a href="https://github.com/Samridhii1212?tab=repositories" target="_blank">
                GITHUB
               </a>
           </div>
