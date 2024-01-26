@@ -19,7 +19,8 @@ function Project()
             `•Developed a GitHub repository viewer with a focus on enhancing user experience through seamless pagination features.`,
             `•Leveraged HTML for content structure, CSS for styling, and JavaScript for dynamic and interactive functionalities.`,
             `•Implemented pagination to optimize the presentation of repository data and improve loading times.`,
-            `• Incorporated GitHub API calls to fetch real-time repository information, demonstrating proficiency in working with external APIs.`,
+            `•Incorporated GitHub API calls to fetch real-time repository information, demonstrating proficiency in working with external APIs.`,
+           
             
 
           ],
