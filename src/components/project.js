@@ -7,8 +7,48 @@ function Project()
 {
 
     const projectsData = [
+      {
+        id: 1,
+        title: 'GitHubRepoViewer',
+        image: 'repo.png',
+        date: 'Jan 10-Jan 20',
+        technologies: [ 'HTML', 'CSS','JAVASCRIPT'],
+        description: 'Developed a GitHub repository viewer with a focus on enhancing user experience click.....',
+        fulldescription:
+          [
+            `•Developed a GitHub repository viewer with a focus on enhancing user experience through seamless pagination features.`,
+            `•Leveraged HTML for content structure, CSS for styling, and JavaScript for dynamic and interactive functionalities.`,
+            `•Implemented pagination to optimize the presentation of repository data and improve loading times.`,
+            `• Incorporated GitHub API calls to fetch real-time repository information, demonstrating proficiency in working with external APIs.`,
+            
+
+          ],
+
+        github: 'https://github.com/Samridhii1212/GitHubRepoViewer',
+        live:'https://git-hub-repo-viewer-lbi2.vercel.app/',
+      },
+      {
+        id: 2,
+        title: 'My thoughts',
+        image: 'quotes.png',
+        date: 'Jan 2024-current',
+        technologies: ['React Js', 'Redux', 'HTML', 'CSS'],
+        description: 'Developed a dynamic web application using React, HTML, and CSS with a focus on user click...',
+        fulldescription:
+          [
+            `•Developed a dynamic web application using React, HTML, and CSS with a focus on user authentication and quote management.`,
+            `•Enabled users to create, store, and view their quotes on the platform, enhancing personalization and user engagement.`,
+            `•Utilized Redux Toolkit for state management, enabling efficient handling of application-wide states and actions like allowing users 
+          to add quotes to their favorite list and remove them, enhancing user customization and interaction`,
+            `• Employed the useContext hook to efficiently manage and persist the login state of the user throughout the app.`,
+            `•Implemention of a secure user authentication system on the login page, ensuring a seamless and protected user experience to be done.`
+
+          ],
+
+        github: 'https://github.com/Samridhii1212/my-thoughts'
+      },
     {
-      id: 1,
+      id: 3,
       title: 'Foodie-Express',
       image: 'foodie.png',
       date:'Nov 2023-Dec 2023',
@@ -31,7 +71,7 @@ function Project()
     },
     
     {
-      id:2,
+      id:4,
       title: 'Tenzies Game',
       image: 'tenzies2.png',
      
@@ -54,7 +94,7 @@ function Project()
     },
 
       {
-        id: 3,
+        id: 5,
         title: 'Meme Creator',
         image: 'meme.png',
         date: 'May 2023-May 2023',
@@ -70,26 +110,7 @@ function Project()
         github:'https://github.com/Samridhii1212/Instant-MemeCreator',
         live:'https://instant-meme-creator-1ir1.vercel.app/'
       },
-      {
-        id: 4,
-        title: 'My thoughts',
-        image: 'quotes.png',
-        date: 'Jan 2024-current',
-        technologies: ['React Js', 'Redux', 'HTML', 'CSS'],
-        description: 'Developed a dynamic web application using React, HTML, and CSS with a focus on user click...',
-        fulldescription:
-          [
-            `•Developed a dynamic web application using React, HTML, and CSS with a focus on user authentication and quote management.`,
-            `•Enabled users to create, store, and view their quotes on the platform, enhancing personalization and user engagement.`,
-            `•Utilized Redux Toolkit for state management, enabling efficient handling of application-wide states and actions like allowing users 
-          to add quotes to their favorite list and remove them, enhancing user customization and interaction`,
-            `• Employed the useContext hook to efficiently manage and persist the login state of the user throughout the app.`,
-            `•Implemention of a secure user authentication system on the login page, ensuring a seamless and protected user experience to be done.`
-
-          ],
-
-        github: 'https://github.com/Samridhii1212/my-thoughts'
-      },
+     
      
   ]
 
