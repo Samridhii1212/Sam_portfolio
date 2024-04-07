@@ -1,14 +1,12 @@
-*
-{
-  margin:0px;
+* {
+  margin: 0px;
 
 }
 
-body
-{
+body {
   background-color: black;
   color: azure;
-  
+
 }
 
 
@@ -31,7 +29,7 @@ body
 .nav ul {
   list-style: none;
   display: flex;
- 
+
 }
 
 .nav ul li {
@@ -42,24 +40,25 @@ body
   text-decoration: none;
   color: #fff;
 }
-.nav a:hover{
+
+.nav a:hover {
   background: rgb(238, 174, 202);
   background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
-.github-btn{
-     background-color: rgb(189, 50, 207);
-      border-radius:20px;
-      overflow: hidden;
-      width: 100px;
-      height:30px;
-      text-align: center;
-  }
-.github-btn a
-{
+.github-btn {
+  background-color: rgb(189, 50, 207);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+
+.github-btn a {
   text-decoration: none;
   color: black;
-  font-size:20px;
+  font-size: 20px;
   font-family: gabriola;
 
 
@@ -71,19 +70,20 @@ body
 
 .about-section {
   padding: 40px;
-  background-color:black;
-  
+  background-color: black;
+
 }
-.about-section h2
-{
-  color:blueviolet;
-  font-family:gabriola;
-  font-size:50px;
+
+.about-section h2 {
+  color: blueviolet;
+  font-family: gabriola;
+  font-size: 50px;
 }
-.heading
-{
+
+.heading {
   background-color: aquamarine;
 }
+
 .about-section h3 {
   color: rgb(202, 43, 226);
   font-family: gabriola;
@@ -94,15 +94,15 @@ body
 .about-content {
   display: flex;
   align-items: center;
-  
-  
+
+
 }
 
 .intro-text {
   max-width: 600px;
   justify-content: center;
   margin-top: 10px;
-  text-align:left;
+  text-align: left;
   height: 100%;
   font-size: 20px;
   color: rgb(137, 137, 191);
@@ -121,25 +121,25 @@ body
 }
 
 
-.photo
-{
- 
+.photo {
+
   margin-top: 0px;
   margin-left: 200px;
 }
+
 .photo img {
   max-width: 80%;
-  height:300px;
-  border-radius:90%;
+  height: 300px;
+  border-radius: 90%;
   overflow: hidden;
 }
 
 @media screen and (max-width:1000px) {
-.photo img{
-  width:900px;
-  height:200px;
-}
-  
+  .photo img {
+    width: 900px;
+    height: 200px;
+  }
+
 }
 
 /* **********************************skill************************* */
@@ -147,24 +147,26 @@ body
   padding: 40px;
   background-color: black;
 }
-.skills-section h1{
+
+.skills-section h1 {
   font-family: gabriola;
-  margin-left:520px;
+  margin-left: 520px;
   margin-bottom: 20px;
-  color:rgb(202, 43, 226);
- 
+  color: rgb(202, 43, 226);
+
 }
-.skills-section p{
-  color:rgb(175, 167, 167);
-  font-size:25px;
-  margin-left:250px;
-  margin-bottom:30px;
+
+.skills-section p {
+  color: rgb(175, 167, 167);
+  font-size: 25px;
+  margin-left: 250px;
+  margin-bottom: 30px;
 }
 
 .skill-box {
   display: flex;
-  justify-content:space-between;
- 
+  justify-content: space-between;
+
 }
 
 .category-box {
@@ -173,10 +175,10 @@ body
   justify-content: center;
   text-align: center;
 }
-.category-box h2
-{
+
+.category-box h2 {
   color: blueviolet;
-  font-size:40px;
+  font-size: 40px;
   font-family: gabriola;
 
 }
@@ -185,11 +187,11 @@ body
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
- 
+
 }
 
 .skill {
-  width:100px;
+  width: 100px;
   margin-bottom: 20px;
   margin-top: 30px;
   text-align: center;
@@ -197,30 +199,29 @@ body
   padding: 15px;
   margin-left: 15px;
 }
+
 @media screen and (max-width:1000px) {
-  .skills-section h1
-  {
-   color: rgb(202, 43, 226);
+  .skills-section h1 {
+    color: rgb(202, 43, 226);
     margin-left: 320px;
   }
- 
-  
-  }
+
+
+}
 
 
 
 
 /* ********************************projects**********************************/
 
-.Projects h1
-{
-  margin-left:600px;
+.Projects h1 {
+  margin-left: 600px;
   color: rgb(202, 43, 226);
   font-size: 40px;
   font-family: gabriola;
 }
-.projects-container
-{
+
+.projects-container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -228,7 +229,7 @@ body
 .project-box {
   width: 100%;
   max-width: 300px;
-  height:400px;
+  height: 400px;
   margin: 20px;
   padding: 10px;
   margin-left: 70px;
@@ -242,10 +243,11 @@ body
 .project-box:hover {
   transform: scale(1.05);
 }
-.project-box h2{
+
+.project-box h2 {
   margin-left: 80px;
   margin-bottom: 10px;
-  color:blueviolet;
+  color: blueviolet;
 }
 
 .project-box h4 {
@@ -259,7 +261,7 @@ body
   height: 200px;
   object-fit: cover;
   margin-bottom: 10px;
-  border-radius:  15px;
+  border-radius: 15px;
 }
 
 .technologies {
@@ -274,14 +276,12 @@ body
   border: 2px solid blueviolet;
 }
 
-.description
-{
+.description {
   color: rgb(137, 137, 191);
 }
 
-.buttons 
-{
-  margin-top:10px;
+.buttons {
+  margin-top: 10px;
 }
 
 @media screen and (max-width:1000px) {
@@ -306,7 +306,7 @@ body
   align-items: center;
   justify-content: center;
   margin-left: 150px;
-  
+
 
 }
 
@@ -317,24 +317,25 @@ body
 }
 
 .project-detail-modal h2 {
-    margin-left: 350px;
-    color: blueviolet;
-    font-size: 22px;
-    margin-bottom: 10px;
+  margin-left: 350px;
+  color: blueviolet;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .project-detail-modal h4 {
-   
-    margin-left:355px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    color: rgb(137, 137, 191);
+
+  margin-left: 355px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: rgb(137, 137, 191);
 }
-.project-detail-modal ul li
-{
+
+.project-detail-modal ul li {
   color: rgb(137, 137, 191);
   font-size: 15px;
 }
+
 .project-detail-modal button {
   padding: 10px 20px;
   background: rgb(2, 0, 36);
@@ -345,9 +346,10 @@ body
   cursor: pointer;
   font-size: 16px;
 }
-.project-detail-modal a{
+
+.project-detail-modal a {
   text-decoration: none;
-  color:azure;
+  color: azure;
 }
 
 .project-detail-modal button:hover {
@@ -357,21 +359,20 @@ body
 
 .detail-image {
   max-width: 55%;
-  height:20%;
+  height: 20%;
   border-radius: 10px;
   margin-bottom: 20px;
   margin-left: 160px;
- 
+
 }
 
-.detailed-technologies
-{
+.detailed-technologies {
   display: flex;
   flex-wrap: wrap;
 }
-.detailed-technology
-{
- 
+
+.detailed-technology {
+
   margin-left: 40px;
   margin-bottom: 10px;
   font-size: 12px;
@@ -382,7 +383,7 @@ body
 
 .buttons {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -418,22 +419,23 @@ body
 
 .school {
   color: blueviolet;
-  font-size:40px;
+  font-size: 40px;
   font-family: gabriola;
   margin-bottom: 10px;
 }
+
 .education-section {
   width: 80%;
   margin: 0 auto;
- 
+
 }
 
 .education-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
- 
- 
+
+
 }
 
 .education-item {
@@ -446,22 +448,22 @@ body
   font-size: 15px;
   color: rgb(137, 137, 191);
 }
-.education-section h2
-{
 
-    margin-left: 400px;
-    color: rgb(202, 43, 226);
-    font-size: 40px;
-    font-family: gabriola;
-  
+.education-section h2 {
+
+  margin-left: 400px;
+  color: rgb(202, 43, 226);
+  font-size: 40px;
+  font-family: gabriola;
+
 }
-.education-item p
-{
+
+.education-item p {
   font-size: 24px;
 }
-.course
-{
- color: rgb(137, 137, 191);
+
+.course {
+  color: rgb(137, 137, 191);
   font-size: 22px;
 }
 
@@ -471,13 +473,91 @@ body
 .date {
   margin-bottom: 10px;
 }
+
 @media only screen and (max-width: 1000px) {
   .education-item {
     flex-direction: column;
   }
-    
-      .education-section h2 {
-        color: rgb(202, 43, 226);
-        margin-left: 300px;
-      }
+
+  .education-section h2 {
+    color: rgb(202, 43, 226);
+    margin-left: 300px;
+  }
+}
+
+/* 
+******************EXP*********** */
+.experience {
+  color: rgb(202, 43, 226);
+  font-size: 25px;
+  font-family: gabriola;
+}
+
+
+.date {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.company {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.work-points {
+  margin-left: 0px;
+
+}
+
+.work-points ul {
+  list-style-type: none;
+}
+
+.work-points ul li {
+  margin: 5px;
+  padding: 5px;
+  color: blueviolet;
+
+
+}
+
+.experience h1 {
+  margin-left: 2px;
+  color: rgb(202, 43, 226);
+  font-size: 35px;
+  font-family: gabriola;
+
+}
+
+
+.company {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.work-points ul {
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+.work-points ul li {
+  margin-bottom: 5px;
+}
+
+.experience-box {
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  margin-left: 350px;
+
+}
+
+.main-exp h2 {
+  margin-left: 550px;
+  color: rgb(202, 43, 226);
+  font-size: 40px;
+  font-family: gabriola;
 }

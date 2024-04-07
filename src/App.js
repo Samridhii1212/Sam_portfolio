@@ -6,7 +6,10 @@ import Education from './components/education';
 import Project from './components/project';
 import Home from './components/home';
 import About from './components/about';
+import Experience from './components/Experience';
+import Exp from './components/Exp';
 import { BrowserRouter as Router, Routes, Route, NavLink, Switch } from "react-router-dom";
+
 
 
 function App() {
@@ -14,11 +17,14 @@ function App() {
     <Router>
       <div className='App'>
         <Routes>
-          <Route exact path="/" element={<Home/>} />
+
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/exp" element={<Exp />} />
           <Route exact path="/skills" element={<Skills />} />
-          <Route exact path="/about" element={<About/>} />
-          <Route exact path="/project" element={<Project/>} />
-          <Route exact path="/education" element={<Education/>} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/project" element={<Project />} />
+          <Route exact path="/education" element={<Education />} />
+
         </Routes>
       </div>
     </Router>

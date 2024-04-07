@@ -4,19 +4,20 @@ import Skills from './skills';
 import Education from './education';
 import Project from './project';
 import About from './about';
+import Exp from './Exp';
 
 
 function Home() {
   return (
     <div>
-      <Header/>
-      <About/>
-      <Skills/>
-      
-        <Project />
-     
-     
-      <Education/>
+      <Header />
+      <About />
+      <Exp />
+      <Skills />
+      <Project />
+
+
+      <Education />
     </div>
   )
 }
