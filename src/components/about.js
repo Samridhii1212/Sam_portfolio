@@ -17,7 +17,7 @@ function About() {
               With expertise in React,Redux,Java, Hibernate, Spring Boot, Spring MVC, HTML5, CSS3, and JavaScript, I've successfully translated design
               concepts into visually appealing and interactive websites.
             </p>
-            <a href="https://drive.google.com/file/d/1GWeC1CEWpWjN0t0-0hOji3ozBK1eg4TH/view?usp=sharing" target="_blank" className="resume-btn">
+            <a href="https://drive.google.com/file/d/1c8ZKFeh4eHzF5eIkZjlPRET6s4BtCyI4/view" target="_blank" className="resume-btn">
               Check Resume
             </a>
           </div>
