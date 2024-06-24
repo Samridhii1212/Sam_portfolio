@@ -25,14 +25,14 @@ function Project() {
         ],
 
       github: 'https://github.com/Samridhii1212/Tenzies-Game',
-      live: 'https://drive.google.com/file/d/1XTwTcK39my3zHToC8q_CjEOYFGBCoorM/view'
+      live: 'https://tenzies-game-frontend.onrender.com/login'
     },
     {
       id: 2,
       title: 'Foodie-Express',
       image: 'foodie.png',
       date: 'Nov 2023-Dec 2023',
-      technologies: ['React', 'Redux', 'Tailwind CSS', 'MongoDb', 'Express', 'Node JS'],
+      technologies: ['React', 'Redux', 'Tailwind CSS', 'MongoDB', 'Express', 'Node JS'],
       description: 'Developed Foodie Express (group project), a food ordering website click ....',
       fulldescription:
         [
@@ -72,7 +72,7 @@ function Project() {
       id: 4,
       title: 'GitHubRepoViewer',
       image: 'repo.png',
-      date: 'Jan 10-Jan 20',
+      date: 'Jan 2024-Jan 2024',
       technologies: ['HTML', 'CSS', 'Javascript'],
       description: 'Developed a GitHub repository viewer with a focus on enhancing user experience click.....',
       fulldescription:

@@ -10,7 +10,7 @@ function Exp() {
                 <div className="experience">
 
                     <h1>Software Development Engineer Intern</h1>
-                    <h4>Feb 2024 - Present</h4>
+                    <h4>Feb 2024 - June 2024</h4>
 
                     <div className="company">Railworld India Private Limited</div>
                     <div className="work-points">
