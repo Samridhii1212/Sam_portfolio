@@ -18,11 +18,14 @@ Welcome to my portfolio! This project is built using React to showcase my skills
 
 
 
+
 ## Demo
 
 Check out the live demo of the my portfolio here.
 https://sam-portfolio-l7cg.vercel.app/
 
+
+![Screenshot (380)](https://github.com/Samridhii1212/Sam_portfolio/assets/115480641/9666ddd1-8372-491f-8278-ab297d89c4a4)
 
 ## Tech Stack
 
